@@ -476,6 +476,6 @@ def menu()-> None:
                 datos, encabezado = cargar_datos(archivo, separador)
 
 if __name__ == "__main__":
-    archivo = "Inventario.csv"
+    archivo = "inventario.csv"
     separador = ";"
     menu()
